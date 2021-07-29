@@ -42,12 +42,29 @@
 #     print("It's a lovely day")
 # print("Enjoy your day")
 
-price = 1000000
-good_credit = True
+# price = 1000000
+# good_credit = True
 
-if good_credit:
-    down_payment = 0.1 * price
-else:
-    down_payment = 0.2 * price
-print(f"Down payment: ${down_payment}")
+# if good_credit:
+#     down_payment = 0.1 * price
+# else:
+#     down_payment = 0.2 * price
+# print(f"Down payment: ${down_payment}")
 
+
+# has_high_income = True
+# has_criminal_record = False
+# has_good_credit = False
+
+# if has_good_credit and not has_criminal_record:
+#     print("Eligible for loan")
+# else:
+#     print("Not eligible for loan")
+
+
+# temperature = 40
+
+# if temperature >= 40:
+#     print("It's a hot ass day")
+# else:
+#     print("It's not so hot")
