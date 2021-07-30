@@ -68,3 +68,47 @@
 #     print("It's a hot ass day")
 # else:
 #     print("It's not so hot")
+
+
+# name = "Matt"
+
+# if len(name) < 3:
+#     print("name must be at least 3 characters")
+# elif len(name) > 50:
+#     print("name can be a maximum of 50 characters")
+# else:
+#     print("name looks good!")
+
+
+
+
+# Approach 1 for weight converter
+
+# weight = float(input("What is your weight? "))
+# unit = input("Lbs or Kgs? ")
+# pound = 2.20462
+# converted_weight = float(weight * pound)
+# formatted_float = "{:.2f}".format(converted_weight)
+
+# print(weight)
+# print(unit)
+
+# if unit == "Kgs":
+#     print(f"Your weight is {weight} {unit}")
+# elif unit == "Lbs":
+#     print(f"Your weight is {formatted_float} {unit}")
+# else:
+#     print("Not a valid input")
+
+
+
+# Approach 2 for weight converter
+weight = int(input('Weight '))
+unit = input('(L)bs or (K)g: ')
+
+if unit.upper() == "L":
+    converted = weight * 0.45
+    print(f"Your are {converted} kilos")
+else:
+    converted = weight / 0.45
+    print(f"Your {converted} pounds")
