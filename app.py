@@ -103,12 +103,57 @@
 
 
 # Approach 2 for weight converter
-weight = int(input('Weight '))
-unit = input('(L)bs or (K)g: ')
 
-if unit.upper() == "L":
-    converted = weight * 0.45
-    print(f"Your are {converted} kilos")
-else:
-    converted = weight / 0.45
-    print(f"Your {converted} pounds")
+# weight = int(input('Weight '))
+# unit = input('(L)bs or (K)g: ')
+
+# if unit.upper() == "L":
+#     converted = weight * 0.45
+#     print(f"Your are {converted} kilos")
+# else:
+#     converted = weight / 0.45
+#     print(f"Your {converted} pounds")
+
+
+# While loops
+
+# i = 1
+# while i <= 5:
+#     print('*' * i)
+#     i = i + 1
+# print("done")
+
+# Guessing game using while loops
+
+# secret_number = 9
+# guess_count = 0
+# guess_limit = 3
+
+# while guess_count < guess_limit :
+#     guess = int(input('Guess: '))
+#     guess_count += 1
+#     if guess == secret_number:
+#         print("You win!")
+#         break
+# else:
+#     print("Sorry you failed") 
+
+# Building a car game
+
+command = ""
+while True:
+    command = input("> ").lower()
+    if command == "start":
+        print("Car started...")
+    elif command == "stop":
+        print("Car stopped.")
+    elif command == "help":
+        print("""
+start - to start the car
+stop - to stop the car
+quit - to quit
+        """)
+    elif command == "quit":
+        break
+    else:
+        print("Sorry I don't understand.")
