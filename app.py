@@ -243,4 +243,13 @@
 # print(uniques)
 
 # Tuples
+# numbers = (1, 2, 3)
+# numbers[0]
+# print(numbers)
+# *Tuples cannot be changed. They are immutable lists so whenever I would want a list to not change I would use tuple
 
+# Unpacking
+# coordinates = (1, 2, 3)
+# x, y, z = coordinates
+
+# Dictionaries
