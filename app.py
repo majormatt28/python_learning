@@ -205,3 +205,24 @@
 #         print(output)
 
 # Lists 
+# names = ['Josh', 'Bob', 'Mosh', 'Sarah', 'Mary']
+# names[0] = 'Jon'
+# print(names[2:])
+# print(names)
+
+# numbers = [10, 22, 3, 14, 6, 11]
+# max = numbers[0]
+# for number in numbers:
+#     if number > max:
+#         max = number
+# print(max)
+
+# 2D Lists
+
+matrix =[
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+print(matrix[0][1])
